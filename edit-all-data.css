@@ -1,0 +1,91 @@
+/* DEFAULT STYLE */
+body {
+   background: #3b9999;
+   font-family: arial;
+}
+form lable {
+   color: black;
+   font-size: 110%;
+   font-weight: 500;
+   letter-spacing: 0.08em;
+   margin-bottom: 5px;
+   text-shadow: 1px 0 1px grey;
+}
+form input {
+   background: white;
+   color: red;
+   font-size:110%;
+   font-weight: 500;
+   margin: 0 0 5px 0;
+   padding: 0 0 0 5px;
+   text-align: center;
+}
+::-webkit-input-placeholder {
+   color: #bbb;
+   font-size: 60%;
+   font-weight: normal;
+   letter-spacing: 0.07em;
+   padding: 0 5px;
+}
+
+
+
+/* EDIT DATA 5 KG */
+.ttl_5kg:before {
+	content:"EDIT DATA BERAS 5 KG";
+}
+
+/* EDIT DATA 10 KG */
+.ttl_10kg:before {
+	content:"EDIT DATA BERAS 10 KILO";
+}
+
+/* EDIT DATA 20 KG */
+.ttl_20kg:before {
+	content:"EDIT DATA BERAS 20 KILO";
+}
+
+/* EDIT DATA 25 KG */
+.ttl_25kg:before {
+	content:"EDIT DATA BERAS 25 KILO";
+}
+
+/* EDIT DAYA 50 KG */
+.ttl_50kg:before {
+	content:"EDIT DATA BERAS 50 KILO";
+}
+
+/* EDIT DATA BAK */
+.ttl_bak:before {
+	content:"EDIT DATA BERAS DALAM BAK";
+}
+
+/* EDIT DATA ECER */
+.ttl_ecer:before {
+	content:"EDIT DATA BERAS ECERAN";
+}
+
+/* EDIT JUMLAH UANG */
+.ttl_jumlahuang:before {
+	content:"GANTI DATA JUMLAH UANG";
+}
+
+/* EDIT UANG DILUAR */
+.ttl_uangdiluar:before {
+	content:"GANTI DATA UANG YANG DIPINJAMKAN";
+}
+
+/* EDIT PENGELUARAN */
+.ttl_pengeluaran:before {
+	content:"GANTI DATA PENGELUARAN PERBULAN";
+}
+
+/* EDIT UTANG */
+.ttl_utang:before {
+	content:"GANTI DATA UTANG TOKO";
+}
+
+/* EDIT MODAL */
+.ttl_modal:before {
+	content:"GANTI DATA MODAL TOKO";
+}
